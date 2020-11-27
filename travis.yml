@@ -7,9 +7,3 @@ script:
 
 notifications:
   email: false
-
-addons:
-  artifacts:
-    paths:
-      - ./coverage/lcov-report
-    target_paths: $TRAVIS_BUILD_NUMBER
