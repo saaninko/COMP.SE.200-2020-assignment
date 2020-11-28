@@ -8,3 +8,6 @@ script:
 
 notifications:
   email: false
+
+after-success:
+  - npm run coverage
